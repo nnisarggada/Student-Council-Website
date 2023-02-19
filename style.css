@@ -133,6 +133,7 @@ nav .mpstme-logo {
   width: 0%;
   height: 2px;
   background: #f44336;
+  z-index: 3;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -265,7 +266,7 @@ nav .fa {
     top: 0;
     right: -200px;
     text-align: left;
-    z-index: 2;
+    z-index: 3;
     transition: 0.5s;
   }
 
