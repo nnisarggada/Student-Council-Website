@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png" /></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Editorial Board</h1>  
+        </section>
+ 
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Our Vision</h1>     
+                    <p>Through our events we work towards establishing a community for the creatives- the people who seek refuge in art and literature.
+                         </p>
+                    <h1>Flagship Events</h1>     
+                    <p><b>Open Mic Night</b> A night filled with soulful singers musicians and melodious poetry; With a twist of Skits and Stand ups.
+                        <b>Blind Date with a Book</b> Choosing atleast one book on the basis of 5 adjectives that shall replace the conventional book description, without knowing the title, cover or the author. Open to all genres.
+                        <b>The Editorial Project</b> A 3-day classical Lit-Fest experience with various events.
+                       
+                        <b>TalkFest</b> on the 10th of every month, the Editorial Board brings you a new pioneer in the world of art and literature via an interactive Q&A.
+                        Crossfire Debate Conference: wherein we simulate riveting debates on the latest and greatest in the world, ranging from discussions about human rights, to political affairs.
+                        </p>
+                    <a href="" class="hero-btn red-btn">Register for Executive</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/editorial.png">
+                </div>
+            </div>    
+        </section>
+    <section class="facility">
+        <h1>Our Team</h1>
+        <p>Supercore paving the pathway for the student council</p>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/divijsec.png">
+                    <h3>Divij Khekale</h3>
+                    <p>Secretary</p>
+                    <p><a href = "mailto: divij.khekale013@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/khadijahjsec.png">
+                    <h3>Khadijah Syed</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: khadijah.syed087@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/simranjsec.png">
+                    <h3>Simran Lamba</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: harsimrankaur.lamba051@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+            
+            </div>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/shivanijsec.png">
+                    <h3>Shivani Singh</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: shivani.singh162@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/nishantjsec.png">
+                    <h3>Nishant Mhatre</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: nishant.mhatre018@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+            
+            </div>
+    </section>
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/students.council.mpstme/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/student-council-mpstme/"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+</section>       
+
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>   

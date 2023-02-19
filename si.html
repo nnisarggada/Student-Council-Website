@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png" /></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Social Impact</h1>  
+        </section>
+ 
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Our Vision</h1>     
+                    <p>The team with a heart, ‘Social Impact’, is the social responsibility  club of NMIMS MPSTME that strives to sensitize the future leaders  of the institute towards social responsibilities. 
+                        As students at one of the best universities in the country, we have a  tremendous opportunity to steer the course of the future by carefully  planning what we want to care about, where we want to give, and  how we want to make an impact. 
+                        We are here with a vision 'to care'; be it for our students and their  mental health, for our teachers and their health care, for the NGOs  and organisations in need of any form of assistance, to those on  ground in need— Social Impact aims 'to care' for our people from all  walks of life. 
+                        
+                         </p>
+                    <h1>Flagship Events</h1>     
+                    <p><b>Serve Out Smiles</b> is our flagship event at SI, where we tie up  with various NGOs, and offer students a chance to earn a certificate  for social service by working with those NGOs for a stipulated time. 
+                        <b>Unwind </b> is a three day national  conference, backed by the United Nations, where students and  professionals from around the country come together to discuss  and find solutions for social issues that plague the nation.
+                        <b> Social Conclave</b> is a three day national  conference, backed by the United Nations, where students and  professionals from around the country come together to discuss  and find solutions for social issues that plague the nation. 
+                        
+                    </p>
+                    <a href="" class="hero-btn red-btn">Register for Executive</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/si.png">
+                </div>
+            </div>    
+        </section>
+    <section class="facility">
+        <h1>Our Team</h1>
+        <p>Supercore paving the pathway for the student council</p>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/SunandanDasgupta_SocialImpact_Secretary.jpg">
+                    <h3>Sunandan Dasgupta</h3>
+                    <p>Secretary</p>
+                    <p><a href = "mailto: sunandan.dasgupta11@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/Jai Yadav_Social Impact_Secretary.JPG">
+                    <h3>Jai Yadav</h3>
+                    <p>Secretary</p>
+                    <p><a href = "mailto: jai.yadav050@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/aashir.png">
+                    <h3>Aashir Ibrahim</h3>
+                    <p>Joint Secretary </p>
+                    <p><a href = "mailto: Mohammedaashir.peringady216@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/Khushank Jain_Social Impact_Joint Secretary.JPG">
+                    <h3>Khushank Jain</h3>
+                    <p>Joint Secretary </p>
+                    <p><a href = "mailto: khushank.jain009@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/AmishiDesai_SocialImpact_Jsec.jpg">
+                    <h3>Amishi Desai</h3>
+                    <p>Joint Secretary </p>
+                    <p><a href = "mailto: amishi.desai023@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+            
+    </section>
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/students.council.mpstme/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/student-council-mpstme/"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+</section>    
+
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>   

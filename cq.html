@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png" /></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="container1"> 
+            <div class="text">
+              <h1>Colloquium</h1>
+            </div>
+            <div class="image1">
+                <img src="images/cq.png" class="comms">
+            </div>
+          </div> 
+        </section>
+ 
+        <section class="about-us">
+                <div class="about-col2">
+                    <h1>Our Vision</h1>     
+                    <p>Colloquium is the business and management committee of MPSTME, NMIMS. It provides students with a forum for student-industry interaction and exposes them to best industry practices by conducting national level events and conferences. It envisions to groom and prepare students to face the corporate world and enhance their skills via comprehensive workshops and trainings. Colloquium aims to spread across the entrepreneurial realm in college while ensuring a fun learning experience. It focuses on helping students network with leaders of today’s corporate world, to help them morph into leaders of tomorrow. Furthermore, It helps them develop soft skills which are quintessential for success in any field like communication skills, team work, empathy etc. Furthermore, it helps them develop soft skills which are quintessential for success in any field like communication skills, team work, empathy etc. Students walk out with enhanced skills, confidence and fond memories that stay etched in heart forever.
+                    <h1>Flagship Events</h1>     
+                    <p><b>Stockraze</b> Learning how to trade on the stock market or brushing up on your Warren Buffet-like investing skills, Stockraze is a pseudo stock market simulation which gives young participants a platform to gain exposure about the financial markets and investing with a competitive curve. As an introduction to Stockraze 5.0, we set in the excitement with a pre-event inspired by the Wolf of Wall Street. Stockraze has partnered with the likes of ICICI Lombard, Axis Bank and NSDL in previous editions. 
+                        <b>Bizzneeti</b> is a National Level Business Planning Competition. It is listed among the top ten of its kind in India. Bizzneeti seeks to provide budding entrepreneurs a chance to showcase their business savvy and startup ideas to a panel of angel investors with the opportunity to battle it out to see whether their ideas have got what it takes to sustain in the real world.
+                        <b>LinkedIn Workshop</b>An official workshop in collaboration with LinkedIn India. It reverberates the importance of professional networking and setting an online presence in a digital space for future headhunters and recruitments. Last year's workshop was the grandest one yet, graced by the presence of our speaker Mr. Aman Dhattarwal.
+                    </p>
+                    <a href="" class="hero-btn red-btn">Register for Executive</a>
+                </div>
+        </section>
+    <section class="facility">
+        <h1>Our Team</h1>
+        <p>Supercore paving the pathway for the student council</p>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/shivamcqsec.png">
+                    <h3>Shivam Mundyafe</h3>
+                    <p>Secretary</p>
+                    <p><a href = "mailto: shivam.mundyafe026@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/aryancqjsec.png">
+                    <h3>Aryan Zingade</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: aryan.zingade001@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/adhyacqjsec.png">
+                    <h3>Adhya Khandelwal</h3>
+                    <p>Joint Secretary </p>
+                    <p><a href = "mailto: adhya.khandelwal065@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+            
+            </div>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/saumyacqsjec.png">
+                    <h3>Saumya Pandey</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: saumya.pandey063@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/rutujajsec.png">
+                    <h3>Rutuja Jadhav</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: rutuja.jadhav132@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+            
+            </div>
+    </section>
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/students.council.mpstme/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/student-council-mpstme/"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+</section>    
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>   

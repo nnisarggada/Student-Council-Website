@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png" /></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>The Editorial Project</h1>
+    </section>
+    <!---------- course ----------->
+    
+    
+    <section class="about-us1">
+        <div class="row">
+            <div class="about-col1">
+                <h1>The literature Cultural Festival</h1>     
+                <p>The Editorial Project is the annual literary and fine arts fest organised by the Students’ Council Editorial Board. The Editorial Project is more than just a group of people with a perpetual appreciation for art and literature but an event that gives people the freedom to uncover their aspirations where the culture of having new experiences is prominent. It’s a platform where fine arts and literature flourishes, a fest that is home to pop culture, from the hottest buzz about prominent celebrities to the best in movies and tv shows, we have the perfect blend.
+                </p>
+                <h1>Flagship Events</h1>     
+                <p>It is a three day flagship event that previously observed the presence of eminent artists such as Prateek Kuhad and The Local Train to name a few. The event is the authentic amalgamation of literature and fine art elements with a distinct pop culture reference. The online version of ‘TEP’ witnessed events such as Blind Date with a Book the literary event traditional to the Editorial Board, Emoti-con and Nail-It which were fine art events, coffee painting and dreamcatcher workshops among others. The offline rendition included standup comedy, talk events, stories and slam poetry events attended by some remarkably celebrated special guests. The Editorial Project is an event momentous to the massive art and literature audience of our college. TEP 2021 exceeded every goal it had set for itself, attracting participation from around the world, including 60 attendees from the United States, 26 from the United Kingdom, and 6 from Australia. Future  visions for the fest observe exclusive events such as the immensely anticipated Comic Con, and the infamous Open Mic Night that everybody can revel in. 
+
+                </p>
+                <a href="https://www.instagram.com/the.editorial.project/" class="hero-btn red-btn">Know More</a>
+            </div>
+            <div class="about-col">
+                <img src="images/TEP.png">
+            </div>
+        </div>    
+    </section>
+    <section class="campus">
+        <h1>A Glimpse Of The Editorial Project</h1>
+        <p></p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/singer.png">
+                    <div class="layer1">
+                        <h3>Concerts</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/datewbooks.png">
+                    <div class="layer1">
+                        <h3>Blind Date</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/talk.png">
+                    <div class="layer1">
+                        <h3>Talk</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+<!-------- footer ---------->
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/the.editorial.project/"><i class="fa fa-instagram"></i></a>
+        <!-- <a href="https://www.linkedin.com/company/student-council-mpstme/"><i class="fa fa-linkedin"></i></a> -->
+        
+    </div>
+</section>    
+
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>   

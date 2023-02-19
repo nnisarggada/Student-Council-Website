@@ -1,0 +1,101 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png" /></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Sattva</h1>
+    </section>
+    <!---------- course ----------->
+    
+    
+    <section class="about-us1">
+        <div class="row">
+            <div class="about-col1">
+                <h1>The ANNUAL Cultural Festival</h1>     
+                <p>Sattva, MPSTME's annual cultural festival is a remarkable celebration of fervour and creativity in its purest forms. Sattva at its heart is based on the principle of providing people the opportunity of a lifetime with memories and experiences that last forever. It offers a platform for people who believe in making dreams come true, for people who believe, sky's the limit.
+                </p>
+                <h1>Flagship Events</h1>     
+                <p>The three day fest comprises of a pro-night, one DJ/band night and distinct events such as Cyclathon, events from Sports like Box Cricket, Football 5V5, Valorant, Rocket League  and Fifa’22,  Informals events of Mr and Ms. Sattva, Vice City launch, parde ke peeche kya hai,  and be the detective,  Performing Arts events of Standup Comedy, Beatboxing, Western Solo Dance, Group Dance, Short Films, Classical Solo Dance, Monologue, Stand-up Comedy and Rap Battle, Management events like Sitcom exchange, Change my mind, shark tank, Jam and Pick your sole, Socials events of A day at Sattva, Sattva’s got talent, Movie screening, Tshirt painting and Donation drive, Workshops like Dance workshop, Market yourself, Health and Lifestyle workshop and Fitness Workshop, among others. SATTVA ‘22 was graced by the presence of many prominent artists such as Tusshar Kapoor, Funcho, King, cast of Kashmir Files and rock band Sabali. MPSTME was the first in Mumbai to organise an offline fest shortly after the COVID-19 pandemic, even after multiple restrictions that were imposed. Some other renowned celebrities to be a part of Sattva in the past include, Aditya Roy Kapoor, Disha Paatni, Kailash Kher and Zakhir Khan.
+
+                </p>
+                <a href="https://www.instagram.com/sattva.2023/" class="hero-btn red-btn">Know More</a>
+            </div>
+            <div class="about-col">
+                <img src="images/sattva.png">
+            </div>
+        </div>    
+    </section>
+    <section class="campus">
+        <h1>A Glimpse Of Sattva</h1>
+        <p></p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/concertking.png">
+                    <div class="layer1">
+                        <h3>Concerts</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/mr&mrs.png">
+                    <div class="layer1">
+                        <h3>Mr & Mrs Sattva</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/informalssattva.png">
+                    <div class="layer1">
+                        <h3>Informals</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/sattva.2023/"><i class="fa fa-instagram"></i></a>
+        <!-- <a href="https://www.linkedin.com/company/student-council-mpstme/"><i class="fa fa-linkedin"></i></a> -->
+        
+    </div>
+</section>    
+
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>   

@@ -1,0 +1,133 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png" /></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Sports Committee</h1>  
+        </section>
+ 
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Our Vision</h1>     
+                    <p>The Students’ Council Sports Committee, or as we like to call it, The Sports Family, has always given its absolute everything to promote sports culture here at NMIMS MPSTME. This has been our primary goal since day one. While organizing inter and intra collegiate events along with our Official Annual Sports Festival - CONQUER, which includes sports like Football, Cricket, Badminton, Basketball, Lawn Tennis etc. has been nto the gigantic world of ESp FFF cnvxnbvnbnnbnnorts, which led to CONQUEST , our Official International ESports Festival. 
+                        Everyone here at the Sports Committee is incredibly dedicated towards the committee and have always strived to make it reach greater heights. What really brings us together is not just our shared love for the committee and working together to make it the best, but also our undying love and passion for sports. 
+                         </p>
+                    <h1>Flagship Events</h1>     
+                    <p><b>Conquer</b> Annual Sports Festival of MPSTME 
+                        A pitch of 7 different sports and more than 1000 participants from all around the city competing against each other. The sports namely, Athletics, Badminton, Basketball, Cricket, Football, Lawn Tennis and Table Tennis. The festival was conducted in a span of 13 days where every day consisted of action packed face offs between the best of the teams.                        
+                        <b>Conquest</b> Annual ESports Festival of MPSTME 
+                        The biggest ESports Festival of Mumbai that was conducted by the Sports Committee of MPSTME, had participants from all around the world with more than 25 Universities participating from various countries and above 2500 participants. With 5 ESports, namely, Valorant, CSGO, COD Mobile, DOTA 2 and FIFA 21, Conquest was held in a span of 12 days and with the efforts put in by the organizers, it was a complete success.
+                        <br>
+                        
+                        
+                    </p>
+                    <a href="" class="hero-btn red-btn">Register for Executive</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/sports.png">
+                </div>
+            </div>    
+        </section>
+    <section class="facility">
+        <h1>Our Team</h1>
+        <p>Supercore paving the pathway for the student council</p>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/dhruvasec.png">
+                    <h3>Dhruva Poojary</h3>
+                    <p>Secretary</p>
+                    <p><a href = "mailto: dhruva.poojary10@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/ritikajsec.png">
+                    <h3>Ritika Rai</h3>
+                    <p>Secretary</p>
+                    <p><a href = "mailto: ritika.raj282@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/harshjsec.png">
+                    <h3>Harsh Kanakia</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: harsh.kanakia005@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/prathamjsec.png">
+                    <h3>Pratham Vasa</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: pratham.vasa046@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+            
+            </div>
+            <div class="row5">
+                <div class="facility-col">
+                    <img src="images/vedashreejsec.png">
+                    <h3>Vedashree Shetye</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: vedashree.shetye138@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/akshaysec.png">
+                    <h3>Akshay Kumar</h3>
+                    <p>Joint Secretary</p>
+                    <p><a href = "mailto: akshay.skumar048@nmims.edu.in"style="color:#ff0000; text-decoration:none" >Contact</a>
+                    </p>
+                </div>
+            
+            </div>
+    </section>
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/students.council.mpstme/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/student-council-mpstme/"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+</section>    
+
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>   

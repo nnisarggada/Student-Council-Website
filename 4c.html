@@ -1,0 +1,74 @@
+login<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png"/></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>4C</h1>  
+        </section>
+ 
+        <section class="about-us">
+
+                <div class="about-col">
+                    <h1>Our Vision</h1>     
+                    <p>We at 4C - The Marketing Cell of MPSTME, under the NMIMS Deemed-to-be-University embarked on this journey back in 2008, with one collective vision in our minds - To Collect, Connect, Commence, and Contest in the rapidly evolving Marketing world, as depicted in our name. 
+                        As a committee,we organize marketing-related events that are a perfectly proportionate mix of fun and learning. In addition to this, we regularly conduct seminars and industry workshops which help in providing hands-on knowledge to the students that assist them in honing their practical skills and nurturing their marketing mindset.
+                    </p>                         
+                    <h1>Flagship Events</h1>     
+                    <p>
+                        Wings and Roots <br>
+                        Genesis <br>
+                        Emphoria<br>
+                    </p>
+                    <a href="" class="hero-btn red-btn">Register for Executive</a>
+                </div>
+
+        </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/4cnmims/"><i class="fa fa-instagram"></i></a>
+        <!-- <a href="https://www.linkedin.com/company/student-council-mpstme/"><i class="fa fa-linkedin"></i></a> -->
+        
+    </div>
+</section>    
+
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>   

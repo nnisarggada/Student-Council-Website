@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png" /></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Conquer</h1>
+    </section>
+    <!---------- course ----------->
+    
+    
+    <section class="about-us1">
+        <div class="row">
+            <div class="about-col1">
+                <h1>The ANNUAL Sports Festival</h1>     
+                <p>Conquer, the Annual Sports Festival of MPSTME, spans across 13 days where every day is filled with action packed face offs between the best teams across 7 different sports from all around the state competing against each other. The sports are, namely, Athletics, Badminton, Basketball, Cricket, Football, Lawn Tennis and Table Tennis. Over 1500 participants from all over Mumbai participate in Mumbai’s longest and most competitive sports festival. 
+                    The fest has also garnered support from various celebrities namely Jonty Rhodes, Remo D’souza, Sonu Sood, etc. <br>
+                    
+                    We here at Sports Committee are not just a committee but a family. A team that works together and makes sure that every event is carried out with great enthusiasm and teamwork or as we would like to say, a team that gets tanned together, stays together. We strive to rejuvenate the spirit of sport and welcome you to be part of our journey!
+                </p>
+                
+                <a href="https://www.instagram.com/sportscommittee.mpstme/" class="hero-btn red-btn">Know More</a>
+            </div>
+            <div class="about-col">
+                <img src="images/conquerwhite.png">
+            </div>
+        </div>    
+    </section>
+    <section class="campus">
+        <h1>A Glimpse Of Conquer</h1>
+        <p></p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/SOCCER.png">
+                    <div class="layer1">
+                        <h3>Football</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/BASKETBALL.png">
+                    <div class="layer1">
+                        <h3>Basketball</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/RUNNING.png">
+                    <div class="layer1">
+                        <h3>Racing</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/sportscommittee.mpstme/"><i class="fa fa-instagram"></i></a>
+        <!-- <a href="https://www.linkedin.com/company/student-council-mpstme/"><i class="fa fa-linkedin"></i></a> -->
+        
+    </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>   

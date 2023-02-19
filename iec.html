@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png" /></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>IEC</h1>  
+        </section>
+ 
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Our Vision</h1>     
+                    <p>To help in the development of India's innovation and entrepreneurial ecosystem.
+                        Providing a platform to the innovators of India to interact, debate and find sustainable solutions.
+                        Enlightening and inspiring, by creating a culture of interaction between young students and aspiring entrepreneurs, mentors, angel investors, corporates and so on.
+                        To provide opportunities to students for entrepreneurial skill development, helping them understand how to overcome challenges and risks.
+                        To provide a platform for transforming existing ideas into potential businesses
+                        
+                         </p>
+                    <h1>Flagship Events</h1>     
+                    <p><b>Life Of an Entrepreneur</b>
+                        A thought-provoking session for the students of MPSTME understand the Entrepreneurial Lifecycle  from the co-founders of different startups. 
+                        <b>Time Capsule</b>
+                        A fun activity wherein over 300 students wrote a letter to their future selves. These letters were returned to the students at the end of the academic year. The motive behind this was to boost their morale and bring in them a sense of accomplishment
+
+                    </p>
+                    <a href="" class="hero-btn red-btn">Register for Executive</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/iec.png">
+                </div>
+            </div>    
+        </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/iec.mpstme/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/iec-mpstme/"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+</section>       
+
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>   

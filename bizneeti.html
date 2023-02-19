@@ -1,0 +1,101 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png" /></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Bizzneeti</h1>
+    </section>
+    <!---------- course ----------->
+    
+    
+    <section class="about-us1">
+        <div class="row">
+            <div class="about-col1">
+                <h1>National Level B-Plan Competition</h1>     
+                <p>Bizzneeti is a National Level B-Plan competition which ranks among the top 10 in the country. It is the annual flagship event organized by the Students' Council Colloquium. It is a platform wherein the participants can pitch their ingenious business ideas to a panel of angel investors and stand a chance to win huge cash prizes worth ₹1,00,000. It is also a host to a multitude of eminent speakers and mentors who hold prestigious accolades in their field who enlighten the participants with their exceptional journey as an entrepreneur and provide guidance. Bizzneeti provides young minds with an opportunity to showcase their talents to industry professionals and benefit from their expertise.  
+                    <br>
+                    Bizzneeti ‘22 also conducted a Networking Meet offering the participants to interact with like minded individuals and business industry experts. We recognize enterprises making waves in various domains and presented awards including ‘Women in Business’, ‘Social Venture’ and even offered a special grant worth $10,000-$25,000 for startups operating in the field of Web3 and Crypto. We have had teams from across the country participate in the past editions of Bizzneeti. With 50+ sponsors, including brands like LG, Boat, 99 Pancakes etc and even associating with UP StartInUP (UP government initiative), Bizzneeti was the event of the year for all business enthusiasts. 
+                    
+                </p>
+                
+                <a href="https://www.instagram.com/colloquium.mpstme/" class="hero-btn red-btn">Know More</a>
+            </div>
+            <div class="about-col">
+                <img src="images/bizneeti white.png">
+            </div>
+        </div>    
+    </section>
+    <section class="campus">
+        <h1>A Glimpse Of Bizzneeti</h1>
+        <p></p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/london.png">
+                    <div class="layer1">
+                        <h3>Concerts</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/newyork.png">
+                    <div class="layer1">
+                        <h3>Performing Arts</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/washington.png">
+                    <div class="layer1">
+                        <h3>Informals</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/colloquium.mpstme/"><i class="fa fa-instagram"></i></a>
+        <!-- <a href="https://www.linkedin.com/company/student-council-mpstme/"><i class="fa fa-linkedin"></i></a> -->
+        
+    </div>
+</section>     
+
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>   

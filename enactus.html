@@ -1,0 +1,91 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/MPSTME-Logo.png" /></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">About us</a></li>
+                    <li><a href="about.html">Clubs & Committees</a></li>
+                    <li><a href="course.html">Editorial Calendar</a></li>
+                    <li><a href="blog.html">Q & A</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Enactus</h1>  
+        </section>
+ 
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Our Vision</h1>     
+                    <p>The social entrepreneurship cell
+                        A student chapter of a global organisation that is actively working on bringing about significant change and shaping lives in a sustainable manner
+                        
+                        Our past projects: Zeen and Vishuddh worked intensely to achieve UNSDGs and involved extensive exploration, research and innovation. Currently Enactus Mpstme has 2 ongoing projects - Project Shilpkaar and Project Rupaantar
+                        
+                        Project Shilpkaar aims to help underprivileged artisans from the handicraft industry to expand their financial potential and empower them. 
+                        Project Rupaantar was started with the aim of creating something meaningful out of waste and bring in sustainable options for
+                        the people of the country.
+                        
+                         </p>
+                    <h1>Objectives and Importance</h1>     
+                    <p>Dedicated to creating a better world while developing the next generation of Entrepreneurial leaders and social innovators, Enactus is one of the largest experiential learning platforms in the world
+
+                        They establish student programmes on campus to apply business concepts to develop entrepreneurial projects that transform lives and shape a better, more sustainable world.
+                        
+                        To make a positive impact in the lives of the underprivileged by the ideal of capacity building.
+                        
+                        To provide its members with a mock corporate journey to gain experience and skills and build contacts for a successful career.
+                        
+                        Learning and delivery of knowledge and information, analyse and strive to reach the projected figures and attain tangible outcomes such as the income status of our beneficiaries, community upliftment through our ventures.
+                        
+                        Ultimately, our projects promise long term sustainability by the eventual transfer of its operations to our adopted beneficiaries.
+                    </p>
+                    <a href="" class="hero-btn red-btn">Register for Executive</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/enactus.png">
+                </div>
+            </div>    
+        </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/enactusmpstme/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/enactus-mpstme/"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+</section>        
+
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>   
