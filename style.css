@@ -1475,7 +1475,7 @@ p {
   margin: 20px;
   padding: 20px;
   width: 500px;
-  min-height: 200px;
+  min-height: 500px !important;
   display: grid;
   grid-template-rows: 20px 50px 1fr 50px;
   border-radius: 10px;
@@ -1537,7 +1537,7 @@ p {
 /* CARD BACKGROUNDS */
 
 .card-1 {
-  background: radial-gradient(#050717, #050730);
+  background: radial-gradient(#050717, #050717);
 }
 
 .card-2 {
