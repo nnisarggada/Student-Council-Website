@@ -10,7 +10,7 @@ a:hover {
 
 .comm img {
   width: 50vw !important;
-  margin: 0 25vw;
+  margin: auto;
 }
 
 .img-band {
@@ -19,6 +19,7 @@ a:hover {
   background: #050717;
   display: flex;
   margin-bottom: 5vmin;
+  padding: 20px;
 }
 
 nav {
