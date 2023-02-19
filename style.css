@@ -1471,11 +1471,14 @@ p {
 }
 
 .card {
+  display: flex;
+  justify-content: center;
+  padding: 70px !important;
   background: #050717;
   margin: 20px;
   padding: 20px;
   width: 500px;
-  min-height: 500px !important;
+  min-height: 300px !important;
   display: grid;
   grid-template-rows: 20px 50px 1fr 50px;
   border-radius: 10px;
