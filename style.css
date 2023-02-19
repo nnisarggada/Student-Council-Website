@@ -3,6 +3,27 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+
+a:hover {
+  color: white !important;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 2% 4%;
+  justify-content: space-between;
+  align-items: center;
+  background: #efefef;
+  width: 100vw;
+  height: 150px;
+  color: #050717;
+}
+nav a:hover {
+  color: black !important;
+}
 .header {
   min-height: 100vh;
   width: 100%;
@@ -45,25 +66,8 @@
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
 }
-
-nav {
-  position: absolute;
-  width: 90%;
-  top: 0;
-  left: 0;
-  display: flex;
-  padding: 2% 4%;
-  justify-content: space-between;
-  align-items: center;
-}
 header h1 {
   padding-top: 20px;
-}
-nav {
-  background: #efefef;
-  width: 100vw;
-  height: 150px;
-  color: #050717;
 }
 nav .nav-links ul li a {
   color: #050717;
@@ -157,6 +161,7 @@ nav .fa {
 .hero-btn:hover {
   border: 1px solid #f44336;
   background: #f44336;
+  color: #050717;
 }
 
 @media (max-width: 700px) {
@@ -229,9 +234,8 @@ nav .fa {
 /*---------- course --------*/
 
 .course {
-  width: 80%;
   margin: auto;
-  padding: 5vw;
+  padding: 5vw 0;
 }
 h1 {
   font-size: 36px;
@@ -252,8 +256,8 @@ h1 {
 }
 
 .course img {
-  width: calc(100vw - 20vw);
-  margin: auto;
+  width: 100vw;
+  /* margin: 0 10vw; */
 }
 .course .committees-info {
   margin: auto;
@@ -266,13 +270,14 @@ h1 {
   text-align: left;
 }
 .faculty-mentor-text {
-  margin-top: 30px !important;
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
-.faculty-mentor-text p {
-  display: inline !important;
-  vertical-align: middle !important;
+.faculty-mentor-text span {
+  padding: 5vw;
   text-align: center !important;
-  line-height: 8vh !important;
+  line-height: 30px;
 } 
 .row2 {
   margin: 5%;
@@ -391,7 +396,7 @@ h3 {
   padding-bottom: 50px;
 }
 .campus-texts {
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 .campus-col {
   flex-basis: 32%;
@@ -401,6 +406,7 @@ h3 {
   overflow: hidden;
 }
 .campus-col img {
+  background: white;
   width: 100%;
 }
 
@@ -440,10 +446,9 @@ h3 {
   width: 100%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
   color: #fff;
   background-color: rgb(0, 0, 0);
-  padding-top: 50px;
+  padding: 10vw 5vw;
 }
 .facility .p {
   font-weight: 400;
@@ -573,18 +578,20 @@ h3 {
 /*--------------- About Us Page --------------*/
 
 .sub-header {
-  height: 50vh;
+  min-height: 100vh;
   width: 100%;
+  position: relative;
+  overflow: hidden;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(images/background.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
-  color: #fff;
-  background-color: #452543;
+  color: white;
+  background-color: #efefef;
 }
 .sub-header h1 {
-  margin-top: 0;
+  margin-top: 250px;
   padding-top: 200px;
 }
 .about-us1 {
@@ -595,9 +602,10 @@ h3 {
   background-color: #452543;
 }
 .about-us2 {
-  padding-top: 10px;
-  padding-bottom: 50px;
-  background-color: #452543;
+  padding: 50px 0;
+}
+.about-us2 h3 {
+  color: black
 }
 .about-us {
   padding-left: 5%;
@@ -722,7 +730,6 @@ h3 {
 }
 
 .comment-box {
-  border: 1px solid #ccc;
   margin: 50px 0;
   padding: 10px 20px;
 }
@@ -730,12 +737,19 @@ h3 {
 .comment-box h3 {
   text-align: left;
 }
+.comment-form {
+  width: 80%;
+  padding: 5vw;
+  margin: auto;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
 .comment-form input,
 .comment-form textarea {
   width: 100%;
   padding: 10px;
   margin: 15px 0;
-  box-sizing: border-box;
   border: none;
   outline: none;
   background: #f0f0f0;
@@ -1444,7 +1458,7 @@ p {
 /* timeline for committees and clubs  */
 .main-container {
   padding: 30px;
-  background-color: #452543;
+  background-color: white;
 }
 
 /* CARDS */
@@ -1453,9 +1467,11 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .card {
+  background: #050717;
   margin: 20px;
   padding: 20px;
   width: 500px;
@@ -1521,7 +1537,7 @@ p {
 /* CARD BACKGROUNDS */
 
 .card-1 {
-  background: radial-gradient(#1f3638, #192e3a);
+  background: radial-gradient(#050717, #050730);
 }
 
 .card-2 {
