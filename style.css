@@ -8,6 +8,21 @@ a:hover {
   color: white !important;
 }
 
+.gala-sir img {
+  max-height: 80vh;
+}
+
+.aftermovie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+}
+
+.aftermovie video {
+  width: 70vw;
+}
+
 .comm img {
   width: 50vw !important;
   margin: auto;
@@ -208,6 +223,10 @@ nav .fa {
 }
 
 @media (max-width: 700px) {
+
+  .aftermovie video {
+    width: 100vw;
+  }
 
   .layer1 {
     background: #000 !important;
