@@ -254,6 +254,11 @@ nav .fa {
 }
 
 @media (max-width: 700px) {
+  
+  nav .nav-links ul li a {
+    font-size: 1.5vh;
+  }
+
   .landing-row {
     flex-direction: column;
   }
