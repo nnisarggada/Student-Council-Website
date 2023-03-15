@@ -45,7 +45,7 @@
     <div>
       <div class="video-overlay">
       </div>
-      <video autoplay loop muted playsinline play-inline class="video-background">
+      <video autoplay loop muted playsinline play-inline class="video-background" nocontrols id="hero-vid">
         <source src="images/Council video .MP4" />
       </video>
     </div>
@@ -123,6 +123,8 @@
 
   <!----JavaScript for toggle menu---->
   <script>
+    document.getElementById('hero-vid').play()
+
     var navLinks = document.getElementById('navLinks')
 
     function showMenu() {
