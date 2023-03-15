@@ -23,10 +23,16 @@
   object-fit: cover;
 }
 
+.landing-text {
+  background-color: white;
+}
+
 .landing-text p {
   font-size: 1.5vw;
   font: wrap;
   width: 70%;
+  line-height: 35px;
+  font-weight: 300;
 }
 
 center img {
@@ -54,7 +60,7 @@ a:hover {
 }
 
 .comm img {
-  width: 50vw !important;
+  width: 30vw !important;
   margin: auto;
 }
 
@@ -254,7 +260,6 @@ nav .fa {
 }
 
 @media (max-width: 700px) {
-  
   nav .nav-links ul li a {
     font-size: 1.5vh;
   }
