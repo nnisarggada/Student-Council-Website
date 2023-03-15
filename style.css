@@ -671,6 +671,8 @@ h3 {
 .facility-col img {
   width: 100%;
   border-radius: 10px;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 .facility-col p {
