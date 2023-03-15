@@ -54,6 +54,7 @@ a:hover {
 
 .gala-sir img {
   max-height: 80vh;
+  aspect-ratio: auto !important;
 }
 
 .aftermovie {
@@ -468,7 +469,6 @@ h1 {
 }
 
 .faculty-mentor-text span {
-  padding: 5vw;
   text-align: center !important;
   line-height: 30px;
 }

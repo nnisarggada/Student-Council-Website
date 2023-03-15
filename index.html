@@ -36,7 +36,11 @@
     crossorigin="anonymous"
   />
 
-  <body style="background-color: #efefef; color: black">
+  <body
+    id="body"
+    style="background-color: #efefef; color: black"
+    onclick="playvid()"
+  >
     <section class="header">
       <nav>
         <div>
@@ -64,15 +68,14 @@
       </nav>
 
       <div>
-        <div class="video-overlay"></div>
+        <div class="video-overlay" style="pointer-events: none"></div>
         <video
-          autoplay
-          loop
-          muted
-          playsinline
-          play-inline
+          autoplay="true"
+          loop="true"
+          muted="true"
+          playsinline="true"
+          play-inline="true"
           class="video-background"
-          nocontrols
           id="hero-vid"
         >
           <source src="images/Council video .MP4" />
@@ -179,6 +182,16 @@
 
     <!----JavaScript for toggle menu---->
     <script>
+      function playvid() {
+        document.getElementById("hero-vid").play();
+      }
+
+      document
+        .getElementById("body")
+        .addEventListener("touchstart", function () {
+          document.getElementById("hero-vid").play();
+        });
+
       document.getElementById("hero-vid").play();
 
       var navLinks = document.getElementById("navLinks");
